@@ -12,7 +12,9 @@ import java.util.Set;
 public class Poker {
 
 	public static void main(String[] args) {
-		playRound();
+		for (int i = 0; i < 4; i++) {
+			playRound();
+		}
 	}
 
 	private static void playRound() {
@@ -101,14 +103,17 @@ public class Poker {
 
 		if (qualityCheck > 0) {
 			System.out.println(fetchResult(handBlack));
+			System.out.println("-----------------------");
 		}
 
 		if (qualityCheck < 0) {
 			System.out.println(fetchResult(handWhite));
+			System.out.println("-----------------------");
 		}
 
 		if (qualityCheck == 0) {
 			System.out.println(fetchResult(handBlack, handWhite));
+			System.out.println("-----------------------");
 		}
 	}
 
