@@ -8,7 +8,6 @@ public class Hand {
 	private List<Card> cards;
 	private List<Integer> frequencyList;
 	private String greatestValue;
-	//number-type list of the hand's card values
 	private List<Integer> intCardValues;
 	private List<String> stringCardSuits;
 	private boolean hasPair;
@@ -29,6 +28,7 @@ public class Hand {
 	private boolean hasStraightFlush;
 	private String straightFlushSuit;
 	private int quality;
+	
 	public void setCards(List<Card> cards) {
 		this.cards = cards;
 	}
