@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Round {
 	
-	List<Hand> handList;
+	private List<Hand> handList;
 	private int qualityCheck;
 
 	public List<Hand> getHandList() {
