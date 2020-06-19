@@ -3,10 +3,6 @@ package manifest.poker;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.persistence.Entity;
-import javax.persistence.OneToOne;
-
-@Entity
 public class Deck {
 
 	private List<Card> deckOfCards;

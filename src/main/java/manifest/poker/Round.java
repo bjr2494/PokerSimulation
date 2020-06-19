@@ -2,9 +2,6 @@ package manifest.poker;
 
 import java.util.List;
 
-import javax.persistence.Entity;
-import javax.persistence.OneToOne;
-
 public class Round {
 	
 	List<Hand> handList;
