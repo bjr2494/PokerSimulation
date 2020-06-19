@@ -625,7 +625,7 @@ public class Poker {
 				switchToNormalCardValues(handWhite);
 				degree = "highest";
 				result = "White wins - although each has a flush, its " + degree + " card, "
-						+ handWhite.getGreatestValue() + ", is higher than that of white, which is "
+						+ handWhite.getGreatestValue() + ", is higher than that of black, which is "
 						+ handBlack.getGreatestValue();
 			}
 
@@ -647,7 +647,7 @@ public class Poker {
 					switchToNormalCardValues(handWhite);
 					degree = "second highest";
 					result = "White wins - although each has a flush, its " + degree + " card, "
-							+ handWhite.getGreatestValue() + ", is higher than that of white, which is "
+							+ handWhite.getGreatestValue() + ", is higher than that of black, which is "
 							+ handBlack.getGreatestValue();
 				}
 				if (handBlack.getIntCardValues().get(3) == handWhite.getIntCardValues().get(3)) {
@@ -669,7 +669,7 @@ public class Poker {
 						switchToNormalCardValues(handWhite);
 						degree = "third highest";
 						result = "White wins - although each has a flush, its " + degree + " card, "
-								+ handWhite.getGreatestValue() + ", is higher than that of white, which is "
+								+ handWhite.getGreatestValue() + ", is higher than that of black, which is "
 								+ handBlack.getGreatestValue();
 					}
 
@@ -692,7 +692,7 @@ public class Poker {
 							switchToNormalCardValues(handWhite);
 							degree = "fourth highest";
 							result = "White wins - although each has a flush, its " + degree + " card, "
-									+ handWhite.getGreatestValue() + ", is higher than that of white, which is "
+									+ handWhite.getGreatestValue() + ", is higher than that of black, which is "
 									+ handBlack.getGreatestValue();
 						}
 						if (handBlack.getIntCardValues().get(1) == handWhite.getIntCardValues().get(1)) {
@@ -713,7 +713,7 @@ public class Poker {
 								switchToNormalCardValues(handWhite);
 								degree = "fifth highest";
 								result = "White wins - although each has a flush, its " + degree + " card, "
-										+ handWhite.getGreatestValue() + ", is higher than that of white, which is "
+										+ handWhite.getGreatestValue() + ", is higher than that of black, which is "
 										+ handBlack.getGreatestValue();
 							}
 							if (handBlack.getIntCardValues().get(0) == handWhite.getIntCardValues().get(0)) {
