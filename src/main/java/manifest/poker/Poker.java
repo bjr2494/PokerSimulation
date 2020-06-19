@@ -48,43 +48,37 @@ public class Poker {
 			roundCards.add(c);
 		}
 
-		List<Card> blackList = new ArrayList<>();
-		Card blackCardOne = new Card(6, 1);
-		blackList.add(blackCardOne);
-		Card blackCardTwo = new Card(6, 2);
-		blackList.add(blackCardTwo);
-		Card blackCardThree = new Card(3, 4);
-		blackList.add(blackCardThree);
-		Card blackCardFour = new Card(3, 1);
-		blackList.add(blackCardFour);
-		Card blackCardFive = new Card(2, 2);
-		blackList.add(blackCardFive);
-
-		List<Card> whiteList = new ArrayList<>();
-		Card whiteCardOne = new Card(7, 3);
-		whiteList.add(whiteCardOne);
-		Card whiteCardTwo = new Card(3, 4);
-		whiteList.add(whiteCardTwo);
-		Card whiteCardThree = new Card(5, 2);
-		whiteList.add(whiteCardThree);
-		Card whiteCardFour = new Card(4, 3);
-		whiteList.add(whiteCardFour);
-		Card whiteCardFive = new Card(9, 2);
-		whiteList.add(whiteCardFive);
-
 		/*
-		 * List<Card> blackList = new ArrayList<>(); List<Card> whiteList = new
-		 * ArrayList<>();
+		 * List<Card> blackList = new ArrayList<>(); Card blackCardOne = new Card(6, 1);
+		 * blackList.add(blackCardOne); Card blackCardTwo = new Card(6, 2);
+		 * blackList.add(blackCardTwo); Card blackCardThree = new Card(3, 4);
+		 * blackList.add(blackCardThree); Card blackCardFour = new Card(3, 1);
+		 * blackList.add(blackCardFour); Card blackCardFive = new Card(2, 2);
+		 * blackList.add(blackCardFive);
 		 * 
-		 * // dealing the cards one by one to the two players
-		 * blackList.add(roundCards.get(0)); blackList.add(roundCards.get(2));
-		 * blackList.add(roundCards.get(4)); blackList.add(roundCards.get(6));
-		 * blackList.add(roundCards.get(8));
-		 * 
-		 * whiteList.add(roundCards.get(1)); whiteList.add(roundCards.get(3));
-		 * whiteList.add(roundCards.get(5)); whiteList.add(roundCards.get(7));
-		 * whiteList.add(roundCards.get(9));
+		 * List<Card> whiteList = new ArrayList<>(); Card whiteCardOne = new Card(7, 3);
+		 * whiteList.add(whiteCardOne); Card whiteCardTwo = new Card(3, 4);
+		 * whiteList.add(whiteCardTwo); Card whiteCardThree = new Card(5, 2);
+		 * whiteList.add(whiteCardThree); Card whiteCardFour = new Card(4, 3);
+		 * whiteList.add(whiteCardFour); Card whiteCardFive = new Card(9, 2);
+		 * whiteList.add(whiteCardFive);
 		 */
+
+		List<Card> blackList = new ArrayList<>();
+		List<Card> whiteList = new ArrayList<>();
+
+		// dealing the cards one by one to the two players
+		blackList.add(roundCards.get(0));
+		blackList.add(roundCards.get(2));
+		blackList.add(roundCards.get(4));
+		blackList.add(roundCards.get(6));
+		blackList.add(roundCards.get(8));
+
+		whiteList.add(roundCards.get(1));
+		whiteList.add(roundCards.get(3));
+		whiteList.add(roundCards.get(5));
+		whiteList.add(roundCards.get(7));
+		whiteList.add(roundCards.get(9));
 
 		// making the two hands
 		Hand handBlack = new Hand();
